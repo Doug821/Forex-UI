@@ -1,0 +1,13 @@
+services:
+  forex-next:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: client
+    restart: always
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - 3001:3001
