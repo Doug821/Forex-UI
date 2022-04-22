@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://i.postimg.cc/fTSFHz7Z/Group.jpg" alt="Forex">
+  <img src="https://i.postimg.cc/G3qV7RL2/forex.png" alt="Forex">
 
   <p align="center">Exchanges</p>
 </h1>
