@@ -1,0 +1,74 @@
+.chartContainer {
+  max-width: 90rem;
+  border-right: 2px solid #1C1C1E;
+  width: 100%;
+  height: 30vh;
+  padding: 0 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.chartHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chartHeader :global input,
+.chartHeader :global select {
+  border: 1px solid #3D3C41;
+  border-radius: 4px;
+  padding: 0.5rem;
+  background: transparent;
+  color: #A2A3A5;
+}
+
+.chartTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  margin: 0 0 1rem;
+}
+
+
+@media (max-width: 1540px) {
+  .chartContainer {
+    width: 80%;
+
+  }
+}
+
+@media (max-width: 1200px) {
+  .chartContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1188px) {
+  .chartContainer {
+    padding: 3rem 0;
+    border-right: 0;
+    border-bottom: 2px solid #1C1C1E;
+  }
+}
+
+@media (max-width: 915px) {
+  .chartContainer {
+    width: 90%;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+.tooltip {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.tooltipLabel {
+  color: #3D3C41;
+}

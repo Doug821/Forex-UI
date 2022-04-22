@@ -1,0 +1,41 @@
+.appHeader {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 3.125rem;
+  background: #2C2C2E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.langSelector {
+  border: 1px solid #3D3C41;
+  border-radius: 4px;
+  padding: 0.5rem;
+  background: transparent;
+  color: #A2A3A5;
+}
+
+.pageTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2c2c2e;
+  margin-bottom: 2px;
+}
+
+
+@media (max-width: 1188px) {
+  .section {
+    flex-direction: column
+  }
+}

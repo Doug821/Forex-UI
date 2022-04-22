@@ -1,0 +1,78 @@
+.exchangesHistoryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 3rem;
+
+  background: #2c2c2e;
+  max-height: 24.75rem;
+  height: 100%;
+  /* max-width: 414px; */
+  /* overflow-x: scroll; */
+}
+
+.exchangesHistoryTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  align-self: flex-start;
+  color: #FFFFFF;
+  margin-bottom: 2.5rem;
+}
+
+.exchangesHistoryTable {
+  width: 100%;
+}
+
+.tableItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.operation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.operation :global span {
+  color: #A2A3A5;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.operationAmount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.operationDate :global p{
+  color: #A2A3A5;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+
+.operationAmount :global img {
+  height: 1rem;
+  margin: 0 0.5rem;
+}
+
+.operationAmount :global p {
+  color: #A2A3A5;
+  font-size: 1rem;
+}
+
+.operationAmount :global p span {
+  color: #A2A3A5;
+  font-size: 0.8rem;
+}
+
+.deleteExchangeButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+}
