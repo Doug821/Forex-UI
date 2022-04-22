@@ -38,6 +38,7 @@ This project was developed using the following technologies
 
 - [NextJS](https://nextjs.org/)
 - [React](https://reactjs.org/)
+- [I18Next](https://www.i18next.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Docker](https://www.docker.com/)
 
